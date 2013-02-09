@@ -1,0 +1,37 @@
+body
+{
+	background-color:#76766e;
+}
+.title
+{
+	color:#37c855;
+}
+.header
+{
+	height:40px;
+	width:100%;
+	background-color:#088da5;
+}
+.topNav
+{
+	height:30px;
+	width:100%;
+}
+.topNav ul
+{
+	background-color:#d81417;
+	padding-left:200px;
+}
+.topNav ul li
+{
+
+
+	list-style-type:none;
+	float:left;
+	padding-right:15px;
+}
+.sidebar
+{
+	background-color:#37c855;
+	width:400px;
+}
