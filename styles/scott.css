@@ -1,9 +1,12 @@
 body
 {
-	width:1300px;
 	padding:0px;
 	margin:10px;		
 	background-color:#76766e;
+}
+h3
+{
+	width:inhert;	
 }
 .title
 {
@@ -19,19 +22,24 @@ body
 {
 	height:30px;
 	width:100%;
+	background-color:white;
 }
 .topNav ul
 {
-	background-color:#d81417;
+	color:white;
 	padding-left:200px;
 }
 .topNav ul li
 {
-
-
+	border 1px solid black;
 	list-style-type:none;
 	float:left;
 	padding-right:15px;
+}
+.topNav ul li a
+{
+	text-decoration:none;
+	font-size:x-large;	
 }
 .sidebar
 {
@@ -47,12 +55,13 @@ body
 {
 	 float:left;
 	 background-color:#d81417;
-	 width:1020px;
+	 width:1080px;
 	 min-width:1000px;
 	 max-height:1000px;
 	 overflow:scroll;
 	 padding:5px;
 	 margin:0;
+}
 .artistImages
 {
 	padding:0;
@@ -60,6 +69,7 @@ body
 }
 .audioFile
 {
+	width:200px;
 	height:10px;
 	padding:0;
 	margin:0;
@@ -81,12 +91,17 @@ body
 .employmentDate 
 {
 	float:left;
-	padding:0 0 0 300px;
+	padding:0 0 0 200px;
 	margin:0;
 	width:300px;
 }
+.positionDetails, .skills
+{
+	padding-left:30px;
+}
 .educationDetails ul li
 {
+	padding-left:10px;	
 	list-style-type:none;
 }
 .languageTable ,.languageTable tr td,
@@ -160,4 +175,20 @@ p
 	width:130px;
 	padding:0;
 	margin:0;
+}
+
+#name
+{
+	padding-left:350px;
+	margin-bottom:0px;
+	width:300px;
+}
+.email, .email a
+{
+	margin:0;
+	padding:0;
+	color:black;
+	font-size:large;
+	text-decoration:none;
+	padding-left:180px;
 }

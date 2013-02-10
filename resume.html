@@ -7,12 +7,15 @@
 
 <head> 
 <title> Scott Resume </title> 
-<link rel="stylesheet" type="text/css" href="styles/scott.css" /> 
+<link rel="stylesheet" type="text/css" href="./styles/scott.css" /> 
 
 </head>
 
 
 <body>
+<script type="text/javascript" src="./scripts/external.js">
+
+</script>
 	<div>
 		<div id="header" class="header">
 			<h1 id="title" class="title"> Scott Snap Shot</h1>
@@ -21,24 +24,26 @@
 			<ul>
 				<li><a href="./index.html">Home</a></li>
 				<li><a href="./resume.html">Resume</a></li>
+				<li><a href="mailto:scott-alzheimer@uiowa.edu">Contact Me</a></li>
 			</ul>
 		</div>
+		<!--Side bar code-->
 		<div id="sidebar" class="sidebar">
 			<div>
 			<label id="extResume">Extended Resume</label>
-			<a id="linkedin" href="http://lnkd.in/UiFDhR" rel="external"><img src="./images/linkedin.jpg" alt="Join me on LinkedIn"/></a>
+			<a id="linkedin" href="http://lnkd.in/UiFDhR" rel="external"><img src="./images/linkedin.jpg" alt="Join me on LinkedIn" title="Join me on LinkedIn"/></a>
 			</div>
 			<div id="webProjects">
 				<h3>Web Projects</h3>
 				<div id="tattooMajicImage">
 				<label> Tattoo Majik</label><br />
 				
-					<a href="http://www.tattoomajik.com" target="_blank"><img src="./images/tmLogo.jpg" alt="Tattoo Majik Logo"  width="200"/></a>
+					<a href="http://www.tattoomajik.com" rel="external"><img src="./images/tmLogo.jpg" alt="Tattoo Majik Logo"  width="200"/></a>
 				</div>
 			
 				<div id="BrentsComputer">
 					<label> Brent's computer Services</label><br />
-						<a href="http://brentscomputerservices.com/"><img src="./images/BSC_Logo.gif" alt="BCS Logo"  width="200"/></a>
+						<a href="http://brentscomputerservices.com/" rel="external"><img src="./images/BSC_Logo.gif" alt="BCS Logo"  width="200" title="Brent's Computer Services"/></a>
 					
 					</div>
 				</div>
@@ -47,22 +52,22 @@
 				<h3>Recording Projects</h3>
 				<div id="adobangaImage">
 				<label> Adobanga</label><br />
-					<img src="./images/adobanga.jpeg" alt="adobanga image"/>
+					<img src="./images/adobanga.jpeg" alt="adobanga image" title="Adobanga"/>
 				</div>
 				<div>
 					
 					
-					<object class="audioFile" data="./audio/My Day.mp3" type="audio/mp3" autostart="false">
+					<object class="audioFile" data="./audio/My Day.mp3" type="audio/mp3" >
 					My Day
 					</object>
 				</div>
 				<div id="drewHayward">
 					<label> Drew Hayward</label><br />
-						<img src="./images/drew hayward.jpg" alt="drew hayward image"/>
+						<img src="./images/drew hayward.jpg" alt="drew hayward image" title="Drew Hayward"/>
 					
-					<div >
-						<object class="audioFile" data="./audio/Wellington hieghts.mp3" type="audio/mp3" autoplay="false">
-						Wellington Heights
+					<div>
+						<object class="audioFile" data="./audio/Wellington hieghts.mp3" type="audio/mp3">
+						
 					</object>
 				
 					</div>
@@ -71,11 +76,20 @@
 		</div>
 		
 		<div id="content" class="content">
+			<!--Contact infomation-->
+			
+			<div>
+				<div id="resumeHeader">
+					<h1 id="name" >Scott Alzheimer</h1>
+					<h4  class="email"><a href="mailto:scott-alzheimer@uiowa.edu">scott-alzheimer@uiowa.edu</a></h4>
+				</div>
+			</div>
+			<hr/>
 			<div id="experience">
 				<h2>Programming Experience:</h2>
 			<div id="CCOM">
 				<div class="positionDate">
-					<h3 class="position">Student Application Developer</h3>
+					<div class="position"><h3 class="position">Student Application Developer</h3></div>
 					<h3 class="employmentDate">September 2011- Present</h3>
 				</div>
 				<br/>
@@ -129,27 +143,29 @@
 			
 			<div id="skills">
 				<h2>Computer Skills:</h2>
-				<label> Languages:</label>
-				<table class="languageTable">
-				<tr>
-				<td>C++</td><td>C#</td><td>Java</td><td>jQuery</td><td>ASP.NET</td><td>MVC</td><td>AJAX</td>
-				</tr>
-				<tr>
-				<td>JavaScript</td><td>VB.NET</td><td>HTML</td><td>CSS</td><td>SQL</td><td>T-SQL</td><td></td>
-				</tr>
-
-				</table>
-				<br/>
-				<label>Operating Systems:</label>
-				<dl>
-					<dt>Windows</dt>
-						<dd>Windows XP</dd>
-						<dd>Windows 7</dd>
-					<dt>Mac(Apple)</dt>
-						<dd>OS X 10.4 to current</dd>
-				</dl>
-				<label> Software:</label>
-				<table class="softwareTable">
+				<div class="skills">
+					<label> Languages:</label>
+					<table class="languageTable">
+					<tr>
+					<td>C++</td><td>C#</td><td>Java</td><td>jQuery</td><td>ASP.NET</td><td>MVC</td><td>AJAX</td>
+					</tr>
+					<tr>
+					<td>JavaScript</td><td>VB.NET</td><td>HTML</td><td>CSS</td><td>SQL</td><td>T-SQL</td><td></td>
+					</tr>
+	
+					
+					</table>
+					<br/>
+					<label>Operating Systems:</label>
+					<dl>
+						<dt>Windows</dt>
+							<dd>Windows XP</dd>
+							<dd>Windows 7</dd>
+						<dt>Mac(Apple)</dt>
+							<dd>OS X 10.4 to current</dd>
+					</dl>
+					<label> Software:</label>
+					<table class="softwareTable">
 				<tr>
 				<td>Visual Studio 2005/2008/2010</td><td>Expressions Web</td><td>SQL Server 2000/2005/2008</td><td>IIS</td>
 				</tr>
@@ -166,7 +182,9 @@
 				<td>Mercurial</td><td>GIT</td><td>Vault</td><td>TortoiseSVN</td>
 				</tr>
 
-				</table>
+				
+					</table>
+				</div>
 			</div>
 			<div id="education">
 				<h2>Education:</h2>
@@ -191,7 +209,7 @@
 				<div id="Kirkwood">
 					<div class="educationDate">
 					<div class="education">
-						<h3 id="kirkwoodName"class="institution">Kirkwood Community College</h3><label class="schoolLocation">Cedar Rapids, Iowa</label>
+						<h3 id="kirkwoodName" class="institution">Kirkwood Community College</h3><label class="schoolLocation">Cedar Rapids, Iowa</label>
 					</div>	
 						<h3 class="graduationDate">May 2011</h3>
 					</div>
