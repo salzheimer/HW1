@@ -1,5 +1,8 @@
 body
 {
+	width:1300px;
+	padding:0px;
+	margin:10px;		
 	background-color:#76766e;
 }
 .title
@@ -32,6 +35,129 @@ body
 }
 .sidebar
 {
+	float:left;
 	background-color:#37c855;
-	width:400px;
+	width:250px;
+	min-width:250px;
+	height:1000px;
+	padding:5px 5px 0px 10px ;
+	margin:0;
+}
+.content
+{
+	 float:left;
+	 background-color:#d81417;
+	 width:1020px;
+	 min-width:1000px;
+	 max-height:1000px;
+	 overflow:scroll;
+	 padding:5px;
+	 margin:0;
+.artistImages
+{
+	padding:0;
+	margin:0;
+}
+.audioFile
+{
+	height:10px;
+	padding:0;
+	margin:0;
+}
+.positionDate, .educationDate, .involvementDate
+{
+	 height:10px;
+	 max-height:10px;
+	 padding:20px;
+ 
+}
+.position
+{
+	float:left;
+	padding0px 100px 0px 0px;
+	margin:0;
+	width:300px;
+}
+.employmentDate 
+{
+	float:left;
+	padding:0 0 0 300px;
+	margin:0;
+	width:300px;
+}
+.educationDetails ul li
+{
+	list-style-type:none;
+}
+.languageTable ,.languageTable tr td,
+.softwareTable, .softwareTable tr td
+{
+	border:1px solid black;	
+}
+.languageTable tr td
+{
+	padding:5px;
+}
+.education
+{
+	float:left;
+	padding0px 50px 0px 0px;
+	margin:0;
+	width:500px;
+	height:20px;	
+}
+.institution
+{
+	float:left;
+	width:200px;
+	padding:0;
+	margin:0;
+}
+.schoolLocation ,.clubName
+{
+	float:left;
+	padding:0;
+	margin:0;	
+}
+.graduationDate, .participationDate
+{
+	float:left;
+	padding:0 0 0 100px;
+	margin:0;
+	width:300px;
+}
+#kirkwoodName
+{
+	float:left;
+	width:255px !important;
+	padding:0;
+	margin:0;
+}
+.clubPosition
+{
+	float:left;
+	width:100px !important;
+	padding:0;
+	margin:0;
+}
+.involvement
+{
+	float:left;
+	width:525px;
+}
+p
+{
+	margin:0;
+	padding:0;
+}
+#linkedin
+{
+	padding-top:0;
+	margin-top:0;
+}
+#extResume
+{
+	width:130px;
+	padding:0;
+	margin:0;
 }
