@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
@@ -8,7 +8,7 @@
 <head> 
 <title> Scott Resume </title> 
 <link rel="stylesheet" type="text/css" href="./styles/scott.css" /> 
-
+<link rel="stylesheet" type="text/css" href="./styles/print.css" media="print"/> 
 </head>
 
 
@@ -52,24 +52,31 @@
 				<h3>Recording Projects</h3>
 				<div id="adobangaImage">
 				<label> Adobanga</label><br />
-					<img src="./images/adobanga.jpeg" alt="adobanga image" title="Adobanga"/>
+					<img src="./images/adobanga.jpeg" alt="adobanga image" title="Adobanga" />
 				</div>
 				<div>
-					
-					
-					<object class="audioFile" data="./audio/My Day.mp3" type="audio/mp3" >
-					My Day
-					</object>
+					<object id="IEQTMD"  classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B">
+						<param name="src" value="./audio/My Day.mp3"/>
+							<!--if[if!IE]><-->
+							<object class="audioFile" data="./audio/My Day.mp3" type="audio/mp3" >
+								<param name="autoplay" value="-1"/>
+							</object>
+							<!--><![endif]-->
+					</object>		
 				</div>
 				<div id="drewHayward">
 					<label> Drew Hayward</label><br />
 						<img src="./images/drew hayward.jpg" alt="drew hayward image" title="Drew Hayward"/>
 					
 					<div>
-						<object class="audioFile" data="./audio/Wellington hieghts.mp3" type="audio/mp3">
-						
-					</object>
-				
+						<object id="IEQTWH"  classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B">
+						<param name="src" value="./audio/Wellington hieghts.mp3"/>
+							<!--if[if!IE]><-->
+							<object class="audioFile" data="./audio/Wellington hieghts.mp3" type="audio/mp3" >
+								<param name="autoplay" value="-1"/>
+							</object>
+							<!--><![endif]-->
+						</object>	
 					</div>
 				</div>
 			</div>
@@ -195,7 +202,6 @@
 					</div>	
 						<h3 class="graduationDate">Anticipated May 2014</h3>
 					</div>
-					<br/>
 					<div class="educationDetails">
 						
 						<ul>
@@ -213,9 +219,8 @@
 					</div>	
 						<h3 class="graduationDate">May 2011</h3>
 					</div>
-					<br/>
-					<div class="educationDetails">
-						
+					
+					<div class="educationDetails">						
 						<ul>
 						<li>A.S. Computer Information Systems</li>
 						</ul>
@@ -249,5 +254,8 @@
 				
 	</div>
 </body>
-
+<p id="validation">
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+  </p
 </html>
