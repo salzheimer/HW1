@@ -10,6 +10,11 @@ h3
 {
 	width:inhert;	
 }
+p
+{
+	margin:0;
+	padding:0;
+}
 .title
 {
 	color:#5858FA;
@@ -50,6 +55,7 @@ h3
 	background-color:#045FB4;
 	width:250px;
 	min-width:250px;
+	min-height:600px;
 	height:100%;
 	max-height:1000px;
 	padding:5px 5px 0px 10px ;
@@ -61,14 +67,73 @@ h3
 	 background-color:#01DFD7;
 	 width:967px;
 	 min-width:700px;
+	 min-height:600px;
 	 max-height:800px;
 	 height:100%;
 	 overflow:scroll;
 	 padding:5px;
 	 margin:0;
 }
+#marketPic
+{
+	padding-top:20px;
+}
+#studioPic
+{
+	padding-top:20px;
+}
+#paragraph1
+{
+	width:500px;
+}
+#paragragh3
+{
+	height:300px;
+
+}
+#amImage
+{
+	padding-top:20px;
+
+}
+#artsImage
+{
+	top:0px;
+	float:left;
+	width:200px;
+	padding-left:200px;
+	margin:0;	
+}
+#interest, #passion
+{
+	float:right;
+	width:500px;
+	margin:0;
+}
+#interest
+{
+	padding: 30px 30px 0 0;
+}
+#interest p, #passion p
+{
+	padding:0;
+	margin:0;
+}
+#passion
+{
+	padding-right: 30px;
+}
+#paragraph2
+{
+	float:right;
+	width:500px;
+	height:150px;
+	padding:30px 0 0 0;
+	margin:0;
+}
 .artistImages
 {
+	width:300px;
 	padding:0;
 	margin:0;
 }
@@ -176,11 +241,7 @@ h3
 	float:left;
 	width:525px;
 }
-p
-{
-	margin:0;
-	padding:0;
-}
+
 #linkedin
 {
 	padding-top:0;
