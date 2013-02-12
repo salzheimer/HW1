@@ -3,17 +3,14 @@ body
 	padding:0px;
 	margin:0px;		
 	background-color:#76766e;
-	margin-left:2%;
-	margin-right:2%;
+	width:1000px auto;
+	height:800px;
 }
-h3
-{
-	width:inhert;	
-}
+
 p
 {
-	margin:0;
-	padding:0;
+	margin:0 auto;
+	padding:0 auto;
 }
 .title
 {
@@ -23,19 +20,19 @@ p
 .header
 {
 	height:40px;
-	width:100%;
+	width:1050px;
 	
 }
 .topNav
 {
 	height:30px;
-	width:1245px;
+	width:1150px ;
 	background-color:white;
 }
 .topNav ul
 {
 	color:white;
-	padding-left:200px;
+	padding-left:200px ;
 }
 .topNav ul li
 {
@@ -53,26 +50,26 @@ p
 {
 	float:left;
 	background-color:#045FB4;
-	width:250px;
-	min-width:250px;
+	width:230px auto;
+	
 	min-height:600px;
 	height:100%;
 	max-height:1000px;
-	padding:5px 5px 0px 10px ;
-	margin:0;
+	padding:2px 2px 0px 5px ;
+	margin:0 auto;
 }
 .content
 {
 	 float:left;
 	 background-color:#01DFD7;
-	 width:967px;
-	 min-width:700px;
-	 min-height:600px;
+	 width:900px ;
+	
+	 min-height:600px ;
 	 max-height:800px;
 	 height:100%;
 	 overflow:scroll;
-	 padding:5px;
-	 margin:0;
+	 padding:0px;
+	 margin:0 auto;
 }
 #marketPic
 {
@@ -84,40 +81,33 @@ p
 }
 #paragraph1
 {
-	width:500px;
+	width:500px ;
 }
-#paragragh3
-{
-	height:300px;
 
-}
-#amImage
-{
-	padding-top:20px;
 
-}
+
 #artsImage
 {
 	top:0px;
 	float:left;
-	width:200px;
+	width:200px auto;
 	padding-left:200px;
 	margin:0;	
 }
 #interest, #passion
 {
 	float:right;
-	width:500px;
-	margin:0;
+	width:500px ;
+	margin: 0 auto;
 }
 #interest
 {
-	padding: 30px 30px 0 0;
+	padding: 30px 30px 0 0 ;
 }
 #interest p, #passion p
 {
 	padding:0;
-	margin:0;
+	margin:0 ;
 }
 #passion
 {
@@ -126,23 +116,46 @@ p
 #paragraph2
 {
 	float:right;
-	width:500px;
-	height:150px;
+	width:400px ;
+	height:200px;
 	padding:30px 0 0 0;
-	margin:0;
+	margin:0 ;
+}
+.spacer
+{ 
+	clear:both;
+	padding-top:10px;	
+}
+#paragragh3
+{
+	clear:both;
+	float:right;
+	width:600px;
+	
+	height:100px;
+
+}
+.amImage
+{
+	float:right;
+	padding-right:100px;
+	padding-top:10px;
+
 }
 .artistImages
 {
-	width:300px;
+	width:300px auto !important;
+	min-width:inherit;
 	padding:0;
-	margin:0;
+	margin:0 auto;
 }
 .audioFile
 {
-	width:200px;
-	height:10px;
-	padding:0 0 10px 0;;
-	margin:0;
+	width:200px auto;
+	min-width:inherit;
+	height:10px ;
+	padding:0 0 10px 0;
+	margin:0 auto;
 }
 .positionDate,.involvementDate
 {
@@ -154,9 +167,9 @@ p
 .position
 {
 	float:left;
-	padding0px 100px 0px 0px;
-	margin:0;
-	width:400px;
+	padding0px 100px 0px 0px auto;
+	margin:0 auto;
+	width:400px auto;
 }
 .employmentDate 
 {
@@ -198,41 +211,41 @@ p
 {
 	float:left;
 	
-	margin:0;
-	width:500px;
-	height:20px;	
+	margin:0 auto;
+	width:500px auto;
+	height:20px ;	
 }
 .institution
 {
 	float:left;
-	width:200px;
-	padding:0;
-	margin:0;
+	width:200px auto;
+	padding:0 ;
+	margin:0 auto;
 }
 .schoolLocation ,.clubName
 {
 	float:left;
 	padding:0;
-	margin:0;	
+	margin:0 auto;	
 }
 .graduationDate, .participationDate
 {
 	float:left;
 	padding:0 0 0 100px;
 	margin:0;
-	width:300px;
+	width:300px auto;
 }
 #kirkwoodName
 {
 	float:left;
-	width:255px !important;
+	width:255px auto ;
 	padding:0 10px 0 0;;
 	margin:0;
 }
 .clubPosition
 {
 	float:left;
-	width:100px !important;
+	width:100px auto ;
 	padding:0;
 	margin:0;
 }
@@ -249,20 +262,20 @@ p
 }
 #extResume
 {
-	width:130px;
+	width:130px auto;
 	padding:0;
-	margin:0;
+	margin:0 auto;
 }
 
 #name
 {
 	padding-left:350px;
 	margin-bottom:0px;
-	width:300px;
+	width:300px auto;
 }
 .email, .email a
 {
-	margin:0;
+	margin:0 auto;
 	padding:0;
 	color:black;
 	font-size:large;
@@ -272,4 +285,8 @@ p
 #BrentsComputer
 {
 	padding-top:10px;
+}
+#validation
+{
+ width:800px;	
 }
